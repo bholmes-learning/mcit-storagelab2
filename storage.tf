@@ -1,4 +1,4 @@
-resource "azurerm_storage_account" "mcitstorageaccountexample" {
+resource "azurerm_storage_account" "bhmcitstorageaccount" {
   count                    = length(var.storage_account_names)
   name                     = var.storage_account_names[count.index]
   resource_group_name      = azurerm_resource_group.bhmcitrg01.name
