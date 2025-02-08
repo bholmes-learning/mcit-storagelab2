@@ -16,7 +16,7 @@ variable "account_tier"{
   type=string
   default="Premium"
 }
-variable "var.account_replication_type"{
+variable "account_replication_type"{
   type=string
   default="RAGZRS"
 }
